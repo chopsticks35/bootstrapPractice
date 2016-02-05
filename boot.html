@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Practice</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css">
+        <link rel ="stylesheet" href="boot.css">
+    </head>
+    <body>
+<!--        required classed-->
+<!--        container or container-fluid-->
+<!--        inside of that a row-->
+<!--        row should only have a column inside - dont put h1 - put itin column-->
+<!--        put anything inside columns and container-->
+<!--        inside of that columns-->
+<!--        col-<SCREEN SIZE>-<NUM OF COLUMNS>-->
+        
+        <nav class="navbar navbar-default" id="nav">NAV BAR</nav>
+        <div class="container" >
+            <div class="row">
+                <div class="col-xs-12 col-lg-6">
+                    <h1>Test of Bootstrap</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6" id="hello">Hello!</div>
+            </div>
+            <div class="col-xs-12 col-md-6" id="goodbye">Goodbye!</div>
+        </div>
+        
+        <div class="fluid-container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-3" id="first">first col</div>
+                <div class="col-xs-12 col-md-6 col-lg-3" id="sec">sec col</div>
+                <div class="col-xs-12 col-lg-6" id="third">third col</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-3" id="red">fourth col</div>
+                <div class="col-xs-12 col-sm-2 col-md-3" id="blue">fourth col</div>
+                <div class="col-xs-12 col-sm-2 col-md-3" id="green">fourth col</div>
+                <div class="col-xs-12 col-sm-2 col-md-3" id="yellow">fourth col</div>
+            </div>
+        </div>
+        
+        <button class="btn btn-default">Click me</button>
+        <a class="btn btn-info">Click me for info</a>
+        <input class="btn btn-warning" value="Warning Button">
+        <input class="btn btn-danger" value="Danger Button">
+        <input type="submit" value="VALUE" class="btn btn-success">
+        
+    </body>
+</html>
